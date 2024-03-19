@@ -1,9 +1,11 @@
-//favorite number
+//array
+let names:string[] =["aqsa","hira","iqra"];
 
-const favoritenumber:number = 7;
+// message
 
-// print message
+let message:string = "would you like to learn typescript"
 
-
-console.log(`my favorite number is ${favoritenumber}`)
+console.log(names[0] + " " + message);
+console.log(names[1] + " " + message);
+console.log(names[2] + " " + message);
 
